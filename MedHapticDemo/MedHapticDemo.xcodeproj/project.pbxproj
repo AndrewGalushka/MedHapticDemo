@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D104069826CB9FE100BD9ACE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D104069726CB9FE100BD9ACE /* Extensions.swift */; };
+		D1B3923E26CBCB4B007E8C3E /* BreathStep.ahap in Resources */ = {isa = PBXBuildFile; fileRef = D1B3923D26CBCB4B007E8C3E /* BreathStep.ahap */; };
+		D1B9D19726CA8731000620E1 /* MedHapticDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9D19626CA8731000620E1 /* MedHapticDemoApp.swift */; };
+		D1B9D19926CA8731000620E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9D19826CA8731000620E1 /* ContentView.swift */; };
+		D1B9D19B26CA8733000620E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B9D19A26CA8733000620E1 /* Assets.xcassets */; };
+		D1B9D19E26CA8733000620E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B9D19D26CA8733000620E1 /* Preview Assets.xcassets */; };
+		D1B9D1A626CA873F000620E1 /* BreathHapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9D1A526CA873F000620E1 /* BreathHapticEngine.swift */; };
+		D1B9D1A826CA87C6000620E1 /* MainBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9D1A726CA87C6000620E1 /* MainBackground.swift */; };
+		D1B9D1AB26CAA57C000620E1 /* Heartbeats.ahap in Resources */ = {isa = PBXBuildFile; fileRef = D1B9D1AA26CAA57C000620E1 /* Heartbeats.ahap */; };
+		D1CF226D26CBBEAC000213B8 /* BreathHapticEngineV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF226C26CBBEAC000213B8 /* BreathHapticEngineV2.swift */; };
+		D1CF226F26CBCA4E000213B8 /* InhaleStart.ahap in Resources */ = {isa = PBXBuildFile; fileRef = D1CF226E26CBCA4E000213B8 /* InhaleStart.ahap */; };
+		D1CF227126CBCA83000213B8 /* ExhaleStart.ahap in Resources */ = {isa = PBXBuildFile; fileRef = D1CF227026CBCA83000213B8 /* ExhaleStart.ahap */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D104069726CB9FE100BD9ACE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D1B3923D26CBCB4B007E8C3E /* BreathStep.ahap */ = {isa = PBXFileReference; lastKnownFileType = text; path = BreathStep.ahap; sourceTree = "<group>"; };
+		D1B9D19326CA8731000620E1 /* MedHapticDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedHapticDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B9D19626CA8731000620E1 /* MedHapticDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedHapticDemoApp.swift; sourceTree = "<group>"; };
+		D1B9D19826CA8731000620E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1B9D19A26CA8733000620E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1B9D19D26CA8733000620E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1B9D19F26CA8733000620E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B9D1A526CA873F000620E1 /* BreathHapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathHapticEngine.swift; sourceTree = "<group>"; };
+		D1B9D1A726CA87C6000620E1 /* MainBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackground.swift; sourceTree = "<group>"; };
+		D1B9D1AA26CAA57C000620E1 /* Heartbeats.ahap */ = {isa = PBXFileReference; lastKnownFileType = text; path = Heartbeats.ahap; sourceTree = "<group>"; };
+		D1CF226C26CBBEAC000213B8 /* BreathHapticEngineV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathHapticEngineV2.swift; sourceTree = "<group>"; };
+		D1CF226E26CBCA4E000213B8 /* InhaleStart.ahap */ = {isa = PBXFileReference; lastKnownFileType = text; path = InhaleStart.ahap; sourceTree = "<group>"; };
+		D1CF227026CBCA83000213B8 /* ExhaleStart.ahap */ = {isa = PBXFileReference; lastKnownFileType = text; path = ExhaleStart.ahap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1B9D19026CA8731000620E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1B9D18A26CA8731000620E1 = {
+			isa = PBXGroup;
+			children = (
+				D1B9D19526CA8731000620E1 /* MedHapticDemo */,
+				D1B9D19426CA8731000620E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B9D19426CA8731000620E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9D19326CA8731000620E1 /* MedHapticDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B9D19526CA8731000620E1 /* MedHapticDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9D1A926CAA52F000620E1 /* HapticPatterns */,
+				D1B9D19626CA8731000620E1 /* MedHapticDemoApp.swift */,
+				D1B9D19826CA8731000620E1 /* ContentView.swift */,
+				D1B9D1A726CA87C6000620E1 /* MainBackground.swift */,
+				D1CF226C26CBBEAC000213B8 /* BreathHapticEngineV2.swift */,
+				D1B9D1A526CA873F000620E1 /* BreathHapticEngine.swift */,
+				D104069726CB9FE100BD9ACE /* Extensions.swift */,
+				D1B9D19A26CA8733000620E1 /* Assets.xcassets */,
+				D1B9D19F26CA8733000620E1 /* Info.plist */,
+				D1B9D19C26CA8733000620E1 /* Preview Content */,
+			);
+			path = MedHapticDemo;
+			sourceTree = "<group>";
+		};
+		D1B9D19C26CA8733000620E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9D19D26CA8733000620E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1B9D1A926CAA52F000620E1 /* HapticPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9D1AA26CAA57C000620E1 /* Heartbeats.ahap */,
+				D1CF226E26CBCA4E000213B8 /* InhaleStart.ahap */,
+				D1CF227026CBCA83000213B8 /* ExhaleStart.ahap */,
+				D1B3923D26CBCB4B007E8C3E /* BreathStep.ahap */,
+			);
+			path = HapticPatterns;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1B9D19226CA8731000620E1 /* MedHapticDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B9D1A226CA8733000620E1 /* Build configuration list for PBXNativeTarget "MedHapticDemo" */;
+			buildPhases = (
+				D1B9D18F26CA8731000620E1 /* Sources */,
+				D1B9D19026CA8731000620E1 /* Frameworks */,
+				D1B9D19126CA8731000620E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedHapticDemo;
+			productName = MedHapticDemo;
+			productReference = D1B9D19326CA8731000620E1 /* MedHapticDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1B9D18B26CA8731000620E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D1B9D19226CA8731000620E1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = D1B9D18E26CA8731000620E1 /* Build configuration list for PBXProject "MedHapticDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1B9D18A26CA8731000620E1;
+			productRefGroup = D1B9D19426CA8731000620E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1B9D19226CA8731000620E1 /* MedHapticDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1B9D19126CA8731000620E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B9D19E26CA8733000620E1 /* Preview Assets.xcassets in Resources */,
+				D1CF227126CBCA83000213B8 /* ExhaleStart.ahap in Resources */,
+				D1CF226F26CBCA4E000213B8 /* InhaleStart.ahap in Resources */,
+				D1B3923E26CBCB4B007E8C3E /* BreathStep.ahap in Resources */,
+				D1B9D19B26CA8733000620E1 /* Assets.xcassets in Resources */,
+				D1B9D1AB26CAA57C000620E1 /* Heartbeats.ahap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1B9D18F26CA8731000620E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D104069826CB9FE100BD9ACE /* Extensions.swift in Sources */,
+				D1B9D1A826CA87C6000620E1 /* MainBackground.swift in Sources */,
+				D1B9D1A626CA873F000620E1 /* BreathHapticEngine.swift in Sources */,
+				D1B9D19926CA8731000620E1 /* ContentView.swift in Sources */,
+				D1CF226D26CBBEAC000213B8 /* BreathHapticEngineV2.swift in Sources */,
+				D1B9D19726CA8731000620E1 /* MedHapticDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1B9D1A026CA8733000620E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1B9D1A126CA8733000620E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1B9D1A326CA8733000620E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MedHapticDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = YDDE2DY87F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MedHapticDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewgalushka.MedHapticDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1B9D1A426CA8733000620E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MedHapticDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = YDDE2DY87F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MedHapticDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewgalushka.MedHapticDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1B9D18E26CA8731000620E1 /* Build configuration list for PBXProject "MedHapticDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B9D1A026CA8733000620E1 /* Debug */,
+				D1B9D1A126CA8733000620E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B9D1A226CA8733000620E1 /* Build configuration list for PBXNativeTarget "MedHapticDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B9D1A326CA8733000620E1 /* Debug */,
+				D1B9D1A426CA8733000620E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1B9D18B26CA8731000620E1 /* Project object */;
+}
